@@ -12,7 +12,6 @@ header {
 }
 
 .banner {
-    /* height: 810px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +26,7 @@ header {
     color: #272727;
     font-size: 60px;
     margin-bottom: 25px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .banner-description {
@@ -45,11 +44,74 @@ header {
     padding: 15px;
     font-size: 15px;
     margin-top: 25px;
-
 }
-
 
 .banner-flower {
     width: 420px;
+}
 
+/* main section styles */
+
+section {
+    margin-top: 120px;
+}
+
+.featured-flowers {
+    padding:0 90px 90px 90px;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 60%);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.flower-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.featured-content {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    /* display: flex; */
+}
+
+.flower-photos {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.photos-description {
+    text-decoration: underline;
+    display: flex;
+    margin-top: 15px;
+    /* margin-left: 120px; */
+    /* gap: 300px; */
+    justify-content: space-around;
+}
+
+.flower-photos img {
+    width: 300px;
+    height: 400px;
+    padding: 40px 40px 0 40px;
+    border: 0;
+    border-radius: 190px 190px 0 0;
+}
+
+.pink {
+    background: rgba(167, 33, 98, 15%);
+}
+
+.teal {
+    background: rgba(5, 151, 160, 15%);
+}
+
+.gray {
+    background: rgba(71, 125, 17, 15%);
 }
