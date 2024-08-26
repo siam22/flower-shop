@@ -71,7 +71,7 @@ section {
 }
 
 .featured-flowers {
-    padding:0 90px 90px 90px;
+    padding: 0px 150px 90px 150px;
 }
 
 
@@ -87,21 +87,17 @@ section {
     margin: auto;
     text-align: center;
     margin-bottom: 40px;
-    /* display: flex; */
 }
 
 .flower-photos {
     display: flex;
     gap: 30px;
-    
 }
 
-.photos-description {
+.photo-card p {
     text-decoration: underline;
     display: flex;
     margin-top: 15px;
-    /* margin-left: 120px; */
-    /* gap: 300px; */
     justify-content: space-around;
 }
 
@@ -129,28 +125,27 @@ section {
     background: rgba(39, 39, 39, 5%);
     border: 0;
     border-radius: 5px;
-    /* height: 200px; */
     width: 70%;
     margin: auto;
     padding: 50px 100px;
+    /* display: flex; */
 }
 
 .support-img {
     display: flex;
     /* padding: 50px 0px; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     justify-content: space-around;
 }
 
-.support-type {
+.support-card p{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .customer-support img {
     height: 70px;
     width: 70px;
-    /* gap: 40px; */
 }
 
 
@@ -264,7 +259,7 @@ section {
 }
 
 .instagram {
-    padding: 0 90px 90px 90px;
+    padding: 0 120px 90px 160px;
 }
 
 .instagram-content {
@@ -304,8 +299,7 @@ section {
 }
 
 .deals-container {
-    padding: 100px 300px;
-
+    padding: 100px 380px;
 }
 
 .deals-content {
@@ -331,7 +325,6 @@ section {
     margin-right: 10px;
     border-radius: 5px;
     padding: 4px 4px 4px 15px;
-    /* margin-left: 5px; */
 }
 
 
@@ -364,4 +357,12 @@ footer {
 .footer-description {
     font-size: 15px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    
 }
